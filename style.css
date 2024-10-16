@@ -24,13 +24,13 @@ body.dark::-webkit-scrollbar-track {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #4CAF50; 
+    background: #003366; 
     border-radius: 2px; 
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #317933; 
+    background: #0077CC; 
 }
 
 body{
@@ -140,7 +140,7 @@ body.dark .logo-j{
 .logo-nome{
     font-size: 2rem;
     font-weight: 900;
-    color: #4CAF50;
+    color: #0151a1;
 }
 
 /* menu */
@@ -176,7 +176,7 @@ a{
 
 .nav_links a:hover{
     cursor: pointer;
-    color: #4CAF50;
+    color: #003366;
 }
 
 .nav_links a::after {
@@ -186,7 +186,7 @@ a{
     bottom: -5px; 
     width: 0;
     height: 2px; 
-    background-color: #4CAF50;
+    background-color: #003366;
     transition: width 0.3s;
 }
 
@@ -199,7 +199,7 @@ body.dark .nav_links a {
 }
 
 body.dark .nav_links a:hover {
-    color: #4CAF50;
+    color: #003366;
 }
 
 
@@ -288,7 +288,7 @@ body.dark .linha{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #4CAF50;
+    background-color: #003366;
     color: #fff;
     border-radius: 50%;
     width: 50px;
@@ -323,7 +323,7 @@ section.topo-do-site{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(./img/programming-cafe.png);
+    background-image: url(./img/pexels-photo-4195501.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -363,7 +363,7 @@ body.dark #text4{
 .icon-inicio a button{
     font-size: 20px;
     padding: 10px 10px;
-    background-color: #4CAF50;
+    background-color: #003366;
     border: none;
     font-weight: 500;
     border-radius: 10px;
@@ -372,26 +372,32 @@ body.dark #text4{
 }
 
 .icon-inicio a button:hover {
-    background-color: #d1cece;
-    color: #317933;
+    background-color: #0077CC;
+    color: #d1cece;
     transform: scale(1.1);
   }
 
 
 body.dark .icon-inicio a button{
-    color: #0000009a;
+    background-color: #003366;
+    color: #ffff;
+}
+
+body.dark .icon-inicio a button:hover{
+    background-color: #0077CC;
+    color: #d1cece;
 }
 
 #text0 img{
    width: 120px;
    height: 120px;
    margin-bottom: 20px;
-   background-color: #4CAF50;
+   background-color: #003366;
    border-radius: 100px;
 }
 
 #text3, #text5{
-    color: #4CAF50;
+    color: #003366;
    font-weight: 500;
 }
 
@@ -455,7 +461,7 @@ body.dark .txt-topo-site #text2{
 }
 
 .text-sobre h1{
-    color: #4CAF50;
+    color: #003366;
     font-size: 45px;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -479,7 +485,7 @@ body.dark .text-sobre p{
 }
 
 .text-sobre a button{
-    background-color: #4CAF50;
+    background-color: #003366;
     padding: 10px 70px;
     border-radius: 10px;
     font-weight: 500;
@@ -492,19 +498,24 @@ body.dark .text-sobre p{
 }
 
 .text-sobre a button:hover {
-    background-color: #d1cece;
-    color: #317933;
+    background-color: #0077CC;
+    color: #d1cece;
     transform: scale(1.1);
   }
 body.dark .text-sobre a button{
-    color:#0000009a;
+    color: #FFF;
 }
+
+body.dark .text-sobre a button:hover {
+    background-color: #0077CC;
+    color: #d1cece;
+    transform: scale(1.1);
+  }
 
 .img-sobre img{
     display: flex;
     width: 95%;
     height: 70vh;
-    border: 2px solid #4CAF50;
     border-radius: 10px;
     margin-top: 50px;
     margin-left: 15px;
@@ -514,12 +525,12 @@ body.dark .text-sobre a button{
 }
 
 .sociais-sobre a i{
-    color: #4CAF50;
+    color: #003366;
     font-size: 40px;
     transition: transform 0.3s ease;
 }
 .sociais-sobre a i:hover {
-    color: #d1cece;
+    color:  #0077CC;;
     transform: scale(1.1);
   }
 
@@ -543,8 +554,8 @@ body.dark .text-sobre a button{
     padding-bottom: 30px;
 }
 .skills h2 {
-    font-size: 40px;
-    color: #4CAF50;
+    font-size: 30px;
+    color: #003366;
     margin-bottom: 20px;
     margin-left: 15px;
 }
@@ -591,9 +602,13 @@ body.dark .carousel a{
 /* projetos */
 
 .projetos{
-    background-color: #4caf4f1e;
+    background-color: #02182e;
     padding-top: 130px;
     scroll-margin-top: -100px;
+}
+
+body.dark .projetos{
+    background-color: #02182e;
 }
 
 .projetos h2{
@@ -606,14 +621,11 @@ body.dark .carousel a{
     margin-left: 480px;
 }
 .projetos h2 span{
-    color: #4CAF50;
+    color: #008080;
+    margin-left: 15px;
 }
 body.dark .projetos h2 span{
     color: #000;
-}
-
-body.dark .projetos{
-    background-color: #4caf4f;
 }
 
 .projeto1{
@@ -624,26 +636,40 @@ body.dark .projetos{
 
 }
 
+.projeto1 .projeto3{
+    width: 400px;
+    height: 350px;
+}
 
+.certificacoes {
+    margin-left: -15px;
+}
 .text-projeto1 h3{
     margin-top: -20px;
-    color: #4CAF50;
+    color: #008080;
     font-size: 35px;
+    margin-left: 10px;
+}
+.text-projeto1 h3 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-bottom: 10px;
 }
 
 body.dark .text-projeto1 h3{
-    color: #000;
+    color: #fff;
 }
 
 .text-projeto1 span{
     color: #d1cece;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 body.dark .text-projeto1 span{
-    color: #0000009a;
+    color: #d1cece;
 }
 .text-projeto1{
     display: flex;
@@ -683,7 +709,7 @@ body.dark .deploy-github a button i{
 }
 .deploy-github a button{
     border: none;
-    background-color: #4CAF50;
+    background-color: #008080;
     padding: 1px 5px;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -704,7 +730,6 @@ body.dark .deploy-github a button:hover {
 .img-projetos{
     display: none;
 }
-
 /* footer */
 footer{
     padding-bottom: 30px;
@@ -737,13 +762,13 @@ footer{
   
   .footer__socials a i{
     font-size:1.7rem;
-    color: #4CAF50;
+    color: #003366;
     cursor: pointer;
     transition: transform 0.3s ease;
   }
   
   .footer__socials a i:hover {
-    color: #d1cece;
+    color:  #0077CC;
     transform: scale(1.1);
   }
   
@@ -768,7 +793,7 @@ footer{
 }
 
 .footer__links a:hover {
-    color: #4CAF50;
+    color: #003366;
     cursor: pointer;
 }
 
@@ -779,7 +804,7 @@ footer{
     bottom: -5px; 
     width: 0;
     height: 2px; 
-    background-color: #4CAF50;
+    background-color: #003366;
     transition: width 0.3s;
 }
 
@@ -793,14 +818,14 @@ body.dark .footer__links a {
 }
 
 body.dark .footer__links a:hover {
-    color: #4CAF50;
+    color: #003366;
 }
   
   .footer__col h4 {
     margin-bottom: 1rem;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #4CAF50;
+    color: #003366;
     text-align: center;
   }
   
@@ -826,8 +851,8 @@ body.dark .footer__links a:hover {
 
   .footer__col:nth-child(1) {
     grid-area: 1/2/2/3;
-    border-left: 2px solid #4CAF50;
-    border-right: 2px solid #4CAF50;
+    border-left: 2px solid #003366;
+    border-right: 2px solid #003366;
   }
 
   body.dark .footer__col:nth-child(1) {
@@ -840,14 +865,14 @@ body.dark .footer__links a:hover {
     border: none;
   }
 
-.footer__col #avatarImage{
+.footer__col .avatarImage{
     display: flex;
     align-items:center;
     justify-content: center;
-    width: 120px;
-    height: 120px;
+    width: 128px;
+    height: 130px;
     margin-bottom: 20px;
-    background-color: #4CAF50;
+    background-color: #003366;
     border-radius: 100px;
 }
 
@@ -862,14 +887,30 @@ body.dark .footer__links a:hover {
     text-align: center;
     margin-left: 70px; /* Adiciona 30px de espaço à esquerda da parte em destaque */
     font-weight: bold; /* Faz o texto em destaque ficar em negrito */
-    color: #4CAF50;
+    color: #003366;
 }
 
 .footer__socials2{
     display: none;
 }
 
+.copywriting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 30px;
+}
 
+body.dark .copywriting{
+    color: #000;
+}
+
+
+.contato-copywriting{
+    margin-left: 5px;
+}
 
 
 /* respoonsivo Compridos*/
@@ -949,12 +990,12 @@ section.topo-do-site{
      display: inline
  }
  .txt-topo-site #text2{
-    font-size: 54px;
+    font-size: 60px;
     margin-bottom: 10px;
  }
  #text1, #text4{
      color: #d1cece;
-     font-size: 35px;
+     font-size: 40px;
      margin-bottom: 10px;
  }
  #text3, #text5{
@@ -993,7 +1034,7 @@ section.topo-do-site{
 }
 
 .text-sobre h1{
-    color: #4CAF50;
+    color: #003366;
     font-size: 55px;
     margin-top: -10;
 }
@@ -1017,9 +1058,8 @@ section.topo-do-site{
 }
 
 .img-sobre-mobile img{
-    width: 70%;
+    width: 100%;
     height: auto;
-    border: 2px solid #4CAF50;
     border-radius: 10px;
     margin-top: 0px;
     margin-bottom: 30px;
@@ -1146,7 +1186,7 @@ section.topo-do-site{
     margin-bottom: .3rem;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #4CAF50;
+    color: #003366;
     text-align: center;
   }
   
@@ -1156,6 +1196,7 @@ section.topo-do-site{
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 13px;
   }
   .footer__col p span{
     text-align: center;
@@ -1264,12 +1305,12 @@ section.topo-do-site{
      display: inline
  }
  .txt-topo-site #text2{
-    font-size: 25px;
+    font-size: 26px;
     margin-bottom: 10px;
  }
  #text1, #text4{
      color: #d1cece;
-     font-size: 17px;
+     font-size: 20px;
      margin-bottom: 10px;
  }
  #text3, #text5{
@@ -1333,7 +1374,7 @@ section.topo-do-site{
 }
 
 .img-sobre-mobile{
-    width: 100%;
+    width: 80%;
     height: auto;
     border: none;
     border-radius: 10px;
@@ -1366,8 +1407,9 @@ section.topo-do-site{
     padding-bottom: 10px;
 }
 .skills h2 {
-    font-size: 35px;
+    font-size: 22px;
     margin-left: 0px;
+    color: #0d63b8;
 }
 .carousel a img {
     width: 35px;
@@ -1400,7 +1442,8 @@ section.topo-do-site{
 }
 
 .projetos h2{
-    margin-bottom:50px;
+    font-size: 21px;
+    margin-bottom:30px;
 }
 .projeto1{
     display: flex;
@@ -1414,13 +1457,15 @@ section.topo-do-site{
  
 .projeto1 .text-projeto1 h3{
     margin-top: 0px;
-    font-size: 40px;
+    font-size: 21px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .text-projeto1 span{
     font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .text-projeto1{
@@ -1483,7 +1528,7 @@ footer{
     gap: 40px;
   }
   .footer__socials2 a i{
-    color: #4CAF50;
+    color: #003366;
     font-size: 2rem;
   }
   .footer__socials2 a i:hover {
@@ -1532,5 +1577,13 @@ footer{
     text-align: center;
     margin-left: 0px; 
    
+}
+
+.copywriting{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 }

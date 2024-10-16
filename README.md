@@ -1,40 +1,29 @@
-# Portfólio Pessoal - Versão 1.0
+Portfólio Profissional - Versão 1.0
+Bem-vindo ao portfólio profissional! Este projeto foi criado com o objetivo de apresentar as habilidades, experiências e realizações deste gerente comercial. O site é intuitivo e foi desenvolvido com HTML, CSS e JavaScript para garantir uma experiência de navegação agradável.
 
-Bem-vindo ao meu portfólio pessoal! Este projeto foi criado com o objetivo de apresentar minhas habilidades, projetos e um pouco sobre mim. É um site simples e intuitivo, desenvolvido utilizando HTML, CSS e JavaScript.
+🔍 Sobre o Projeto
+Esta é a versão 1.0 do portfólio profissional, onde as informações foram organizadas de forma clara e objetiva, facilitando o acesso e compreensão por parte dos visitantes. A estrutura do site foi criada com HTML, os estilos foram desenvolvidos com CSS, e a interatividade foi adicionada com JavaScript.
 
-## 🔍 Sobre o Projeto
-
-Esta é a versão 1.0 do meu portfólio pessoal, onde organizei as informações de forma clara e direta, permitindo uma navegação fácil para os visitantes. A estrutura do site foi criada com HTML, os estilos com CSS, e a interatividade com JavaScript.
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML**: Para a estruturação das páginas.
-- **CSS**: Para estilização e layout responsivo.
-- **JavaScript**: Para adicionar interatividade e dinamismo.
-
-## 📑 Seções do Site
-
+🛠️ Tecnologias Utilizadas
+HTML: Estruturação das páginas para exibir conteúdo relevante.
+CSS: Estilização do layout e responsividade para uma navegação otimizada em diferentes dispositivos.
+JavaScript: Adição de interatividade e funcionalidade para melhorar a experiência do usuário.
+📑 Seções do Site
 O portfólio é dividido nas seguintes seções:
 
-1. **Home**: Introdução e boas-vindas ao visitante.
-2. **Sobre**: Um breve resumo sobre mim, minha trajetória e meus interesses.
-3. **Projetos**: Exposição de alguns dos projetos que desenvolvi, com links para visualização e código fonte.
-4. **Contato**: Formas de entrar em contato comigo, incluindo e-mail e links para redes sociais.
+Home: Boas-vindas e uma visão geral das habilidades e experiência do gerente comercial.
+Sobre: Resumo das qualificações, trajetória profissional e principais competências.
+Experiências: Detalhamento das experiências anteriores, com foco em realizações e contribuições significativas.
+Contato: Formas de entrar em contato, incluindo e-mail e links para redes sociais profissionais.
+🚀 Objetivo
+O objetivo deste portfólio é apresentar as competências e conquistas deste gerente comercial, mostrando como ele pode agregar valor para empresas e potenciais clientes, além de servir como um canal de contato profissional.
 
-## 🚀 Objetivo
-
-O objetivo deste portfólio é compartilhar meus conhecimentos em desenvolvimento web e minha paixão por programação, além de servir como um ponto de partida para quem deseja conhecer meu trabalho e me contatar.
-
-## 🌐 Como Acessar
-
+🌐 Como Acessar
 Você pode acessar o portfólio online através do link abaixo:
 
-[Meu Portfólio Pessoal](#)
+Portfólio Profissional
 
-## 📬 Contato
-
-Para entrar em contato comigo, você pode enviar um e-mail para [devjefersonabreu10@gmail.com](mailto:devjefersonabreu10@gmail.com) ou enviar uma mensagem diretamente pelo meu [Telegram](https://t.me/DevJefersonAbreu).
-
----
+📬 Contato
+Para mais informações ou para discutir oportunidades de negócios, entre em contato por e-mail em devjefersonabreu10@gmail.com ou envie uma mensagem pelo LinkedIn.
 
 Obrigado pela visita! 😊

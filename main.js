@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const texts = [
         { element: document.getElementById("text0"), delay: 0 },
         { element: document.getElementById("text1"), text: "Olá, visitante!", delay: 1000 },
-        { element: document.getElementById("text2"), text: "Meu nome é Jeferson", delay: 3000 },
+        { element: document.getElementById("text2"), text: "Meu nome é Gabriel", delay: 3000 },
         { element: document.getElementById("text3"), text: "</", delay: 4000 },
-        { element: document.getElementById("text4"), text: "Desenvolvedor Full Stack", delay: 5000 },
+        { element: document.getElementById("text4"), text: "GERENTE COMERCIAL", delay: 5000 },
         { element: document.getElementById("text5"), text: ">", delay: 6000 }
     ];
 
