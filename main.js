@@ -215,8 +215,30 @@ window.addEventListener('load', () => {
     }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const downloadButton = document.querySelector('a[href*="Currículo Gabriel - Comercial.pdf"]');
 
+    if (downloadButton) {
+        downloadButton.addEventListener('click', function(event) {
+            event.preventDefault(); // Impede o comportamento padrão de navegação
 
+            // Realiza uma solicitação para pegar o arquivo e forçar o download
+            fetch(downloadButton.href)
+                .then(response => response.blob())
+                .then(blob => {
+                    const link = document.createElement('a');
+                    link.href = window.URL.createObjectURL(blob);
+                    link.download = 'Currículo Gabriel - Comercial.pdf';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                })
+                .catch(error => {
+                    console.error('Erro ao baixar o arquivo:', error);
+                });
+        });
+    }
+});
 
 
 

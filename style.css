@@ -625,7 +625,7 @@ body.dark .projetos{
     margin-left: 15px;
 }
 body.dark .projetos h2 span{
-    color: #000;
+    color: #0077CC;
 }
 
 .projeto1{
@@ -747,7 +747,7 @@ footer{
   }
   
   .footer__container img {
-    max-width: 170px;
+    width: 150px;
     margin-inline: auto;
     margin-bottom: 2rem;
   }
